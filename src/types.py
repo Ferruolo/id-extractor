@@ -34,7 +34,7 @@ class DriversLicense(BaseModel):
     @field_validator('address')
     def validate_address(cls, v):
         # Basic address format validation
-        address_pattern = r'^\d+\s+[A-Za-z0-9\s\.]+(,\s*[A-Za-z\s]+){2},\s*[A-Z]{2}\s+\d{5}(-\d{4})?$'
+        address_pattern = r'^\d+\s+[A-Za-z0-9\s\.]+,\s*[A-Za-z\s]+,\s*[A-Za-z\s]+,\s*[A-Z]{2}\s+\d{5}(-\d{4})?$'
         if not re.match(address_pattern, v):
             raise ValueError('Invalid address format. Must be: number street, town, state, zip')
 

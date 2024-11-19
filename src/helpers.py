@@ -1,6 +1,8 @@
 import time
 import random
 from functools import wraps
+import json
+import re
 
 
 def retry_with_backoff(max_retries=5, base_delay=1, max_delay=32, jitter=True):
@@ -31,3 +33,16 @@ def retry_with_backoff(max_retries=5, base_delay=1, max_delay=32, jitter=True):
 
     return decorator
 
+
+def extract_json(text):
+    json_pattern = r'\{(?:[^{}]|{(?:[^{}]|{(?:[^{}]|{(?:[^{}]|{[^{}]*})*})*})*})*\}'
+    matches = re.finditer(json_pattern, text)
+
+    for match in matches:
+        try:
+            json_str = match.group()
+            return json.loads(json_str)
+        except json.JSONDecodeError:
+            continue
+
+    raise ValueError("No valid JSON object found in text")

@@ -1,5 +1,5 @@
 import os
-from helpers import retry_with_backoff
+from src.helpers import retry_with_backoff
 from fireworks.client import Fireworks
 import base64
 
@@ -23,19 +23,12 @@ class FireworkInterface:
         )
 
     def call_fireworks(self, prompt: str, model='llama-v3p1-8b-instruct', image_path=None, image_encoding=None):
-        prompt_contents = [{
-            "role": "user",
-            "content": prompt,
-        }]
-
-        # Todo: Fix duplicates
-        if image_path:
-            prompt_contents.append({
-                "type": "image_url",
-                "image_url": {
-                    "url": f"data:image/jpeg;base64,{encode_image(image_path)}"
-                }
-            })
+        prompt_contents = [
+            {
+                "type": "text",
+                "text": prompt
+            },
+        ]
 
         if image_encoding:
             prompt_contents.append({
@@ -45,4 +38,11 @@ class FireworkInterface:
                 }
             })
 
-        return self._fireworks_retry_call(model, prompt_contents).choices[0].message.content
+        message = [{
+            "role": "user",
+            "content": prompt_contents
+        }]
+
+        return self._fireworks_retry_call(model, message).choices[0].message.content
+
+
