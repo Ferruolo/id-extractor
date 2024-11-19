@@ -1,0 +1,144 @@
+Llama 3.1 405B Instruct
+Llama 3.1 70B Instruct
+Llama 3.1 8B Instruct
+Llama 3.2 3B Instruct
+Mixtral MoE 8x22B Instruct
+Qwen2.5-Coder-32B-Instruct
+Llama 3.2 11B Vision Instruct
+Llama Guard 7B
+Zephyr 7B Beta
+Qwen2 72B Instruct
+Llama 2 13B Chat
+Mixtral 8x22B Instruct v0.1
+Mixtral MoE 8x22B
+CodeGemma 7B
+Mixtral MoE 8x7B Instruct (HF version)
+DeepSeek Coder 1.3B Base
+CodeGemma 2B
+Code Qwen 1.5 7B
+Yi-Large
+DeepSeek Coder V2 Lite Base
+Llama 3 70B Instruct (HF version)
+Hermes 2 Pro Mistral 7B
+DeepSeek V2 Lite Chat
+Llama 3 70B Instruct
+Qwen2.5 72B Instruct
+Mistral Nemo Instruct 2407
+Qwen2.5 Coder 1.5B Instruct
+OpenChat 3.5 0106
+Deepseek Coder 7B Instruct v1.5
+Toppy M 7B
+Nous Hermes Llama2 7B
+OpenHermes 2 - Mistral 7B
+Nous Capybara 7B V1.9
+Gemma 7B
+Deepseek Coder 33B Instruct
+Chronos Hermes 13B v2
+Nous Hermes Llama2 13B
+Phind CodeLlama 34B v2
+Yi 34B
+Nous Hermes Llama2 70B
+Nous Hermes 2 - Mixtral 8x7B - DPO
+Qwen2p5 Math 72b Instruct
+Llama 2 70B Chat
+Mistral 7B Instruct v0.2
+Llama 2 7B Chat
+Mistral 7B
+Llama 2 7B
+Snorkel Mistral PairRM DPO
+Mistral 7B Instruct v0.1
+Code Llama 7B
+StarCoder 7B
+Code Llama 7B Python
+Code Llama 7B Instruct
+Code Llama 13B
+StarCoder2 15B
+StarCoder2 3B
+Llama 3 8B Instruct (HF version)
+Gemma 2B Instruct
+Code Llama 13B Python
+Llama 3 8B Instruct
+Code Llama 70B Python
+Deepseek Coder 7B Base v1.5
+OpenHermes 2.5 - Mistral 7B
+LLaVA V1.6 Yi 34B
+Nous Hermes 2 - Yi 34B
+Phind CodeLlama 34B Python v1
+Yi 34B Chat
+Qwen1.5 72B Chat
+DBRX Instruct
+Llama 3.2 3B
+FireLLaVA-13B
+DeepSeek Coder V2 Instruct
+Code Llama 34B Instruct
+Flux 1 Dev Controlnet Union
+Llama Guard 3 8b
+Qwen2.5 7B Instruct
+FireFunction V2
+Qwen2.5-Coder-3B-Instruct
+Qwen2.5-Coder-14B
+Qwen2.5-Coder-0.5B-Instruct
+Qwen2.5 Coder 1.5B
+Qwen2.5-Coder-7B
+Qwen2.5-Coder-0.5B
+Qwen2.5-Coder-32B
+Qwen2.5-Coder-3B
+Qwen2.5-Coder-7B-Instruct
+Qwen2.5-Coder-14B-Instruct
+Phi 3.5 Vision Instruct
+QWen2.5 72B float8-mm-405b
+Qwen2.5 7B
+Mixtral Moe 8x22B
+Llama 3.2 1B
+Llama Guard v3 1B
+Llama 3.2 90B Vision Instruct
+Mixtral MoE 8x7B Instruct
+MythoMax L2 13b
+Mistral 7B OpenOrca
+StarCoder 15.5B
+Llama 3.1 Nemotron 70B
+Qwen2.5 32B Instruct
+Qwen2.5 32B
+Qwen2.5 72B
+Qwen2.5 14B Instruct
+Qwen2.5 14B
+Qwen2.5 7B
+Qwen2 7B Instruct
+Dolphin 2.9.2 Qwen2 72B
+Mistral 7B Instruct v0.3
+Llama 3 8B (HF version)
+Dolphin 2.6 Mixtral 8x7b
+Llama V3p1 405b Instruct Long
+Yi 6B
+Capybara 34B
+Phi-2
+Code Llama 70B
+Code Llama 13B Instruct
+Code Llama 34B
+Code Llama 70B Instruct
+Phind CodeLlama 34B v1
+Pythia 12B
+FireFunction V1
+Phi 3 Mini 128K Instruct
+Mistral Nemo Base 2407
+DeepSeek V2.5
+Mistral 7B v0.2
+Code Llama 34B Python
+Llama 2 13B
+Llama Guard v2 8B
+Stable Code 3B
+Deepseek Coder V2 Lite
+Llama 2 70B
+Gemma 7B Instruct
+Mixtral 8x7B v0.1
+Qwen2.5 14B Instruct
+DeepSeek Coder 6.7B Base
+Llama 3.2 1B Instruct
+StarCoder2 7B
+Alpha
+Moa
+Fractal_alpha
+F1 Mini Preview
+F1 Preview
+Transcription
+Custom
